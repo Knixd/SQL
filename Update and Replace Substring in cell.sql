@@ -1,0 +1,1 @@
+UPDATE `click_choice` SET `sentence` = REPLACE(`sentence`,"<abbr title='","<a href='#2' data-toggle='tooltip' data-trigger='hover focus' title='"), `sentence` = REPLACE(`sentence`,"</abbr>","</a>")
